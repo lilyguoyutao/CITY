@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+a:hover {color:#FF00FF;}
+
+/*a.i
+{
+display:block;
+width:100px;
+
+text-decoration:none;
+font-size:20px;
+}
+*/
+ul.li
+{
+	margin-top:5px;
+	border:1px;
+	
+}
+
+a.o
+{
+display:block;
+width:180px;
+background-color:#dddddd;
+text-indent:10px;
+}
+
+
+
+ul li a.i
+{text-decoration: none}
+
+
+p {
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+
+
+p1 {
+	text-align: left;
+	font-size: 20px;
+}
+
+
+#nav {
+    border-right: solid 1px;
+	width: 200px;
+	height: 1200px;
+	
+	position: absolute;
+    left: 10px;
+    top: 100px;
+	margin-top: 0px;
+	font-size:18px;
+	
+	
+}
+
+
+div.nav2 {
+	
+    
+	margin-top: 0px;	
+	width:900px;
+	height: 1200px;
+	position: absolute;
+    left: 230px;
+    top: 100px;
+    z-index: -1;
+	text-indent: 10px;
+}
+

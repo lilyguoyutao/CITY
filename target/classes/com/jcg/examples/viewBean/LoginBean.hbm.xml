@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.jcg.examples.viewBean.LoginBean" table="validated_users" >
+		<id name="userId" column="authorid">
+			<generator class="identity" />
+		</id>
+		<property name="username" column="username" />
+		
+		<property name="password" column="password" />
+	</class>
+</hibernate-mapping>

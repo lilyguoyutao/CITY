@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.jcg.examples.viewBean.Student" table="student" >
+		<id name="st_id" column="st_id">
+			<generator class="identity" />
+		</id>
+		  
+		<property name="username" column="username" />
+		
+		<property name="password" column="password" />
+		
+		<property name="firstname" column="firstname" />
+		
+		<property name="secondname" column="secondname" />
+		<property name="type" column="type" />
+		<property name="email" column="email" />
+		<property name="school" column="school" />
+		
+		<property name="community" column="community" />
+		
+	</class>
+</hibernate-mapping>
