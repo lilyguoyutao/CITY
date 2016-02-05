@@ -1,7 +1,7 @@
 # CITY
 CITY is short for Connecting Idea Threads of Youth (CITY)
 
-Design and develop an education system website named “Connecting Idea Threads of Youth(CITY)” using Spring MVC framework. Project address: http://tccl.rit.albany.edu:8080/example/
+Design and develop an education system website named “Connecting Idea Threads of Youth(CITY)” using Spring MVC framework. Project address: http://tccl.rit.albany.edu:8080/example/  Log-in： username:reader, password:re, type:teacher
 
 “CITY” is an interactive system for teachers to build communities based on students’ class, grade, etc.
 Within each community, teachers are allowed to post different class projects or threads for students to study and exchange their ideas.
